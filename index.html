@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Rosa Especial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+
+    <header>
+        <h1 class="main-title">Minha Rosa Especial</h1>
+        <p class="subtitle">"Tu te tornas eternamente responsável por aquilo que cativas"</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-content">
+                <h2>Para a mulher mais linda do meu universo</h2>
+                <p>Como o Pequeno Príncipe tinha sua rosa única entre milhões, você é única para mim.
+                    Seu sorriso ilumina qualquer dia cinza, seu olhar carrega toda a magia das estrelas,
+                    e seu cabelo dança como os ventos suaves do asteroide B-612.</p>
+                <div class="rose-icon">🌹</div>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <h2 class="gallery-title">A Mais Bela Rosa do Universo</h2>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <div class="carousel-item active">
+                        <img src="foto1.jpeg"
+                            alt="Foto 1 - Seu sorriso iluminando meu mundo">
+                        <div class="carousel-caption">
+                            <p>Seu sorriso ilumina meu mundo como mil sóis ☀️</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto2.jpeg"
+                            alt="Foto 2 - Seus olhos como estrelas">
+                        <div class="carousel-caption">
+                            <p>Nos seus olhos encontro todas as estrelas do universo ⭐</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto3.jpeg"
+                            alt="Foto 3 - Seu cabelo dançando">
+                        <div class="carousel-caption">
+                            <p>Seu cabelo dança como os ventos do asteroide B-612 🌟</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto5.jpeg"
+                            alt="Foto 4 - Você é única">
+                        <div class="carousel-caption">
+                            <p>Você é a rosa única entre milhões no universo 🌹</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="foto4.jpeg"
+                            alt="Foto 5 - Espero que voce tenha lembranças boas dele">
+                        <div class="carousel-caption">
+                            <p>Olha o seu gatinho foda</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Navegação -->
+                <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
+                <button class="carousel-next" onclick="changeSlide(1)">❯</button>
+
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="goToSlide(0)"></span>
+                    <span class="indicator" onclick="goToSlide(1)"></span>
+                    <span class="indicator" onclick="goToSlide(2)"></span>
+                    <span class="indicator" onclick="goToSlide(3)"></span>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-box">
+                <h3>💫 Sobre Sua Beleza Única 💫</h3>
+                <p><strong>Seu sorriso</strong> é como o pôr do sol que o Pequeno Príncipe via 44 vezes em seu planeta -
+                    nunca me canso de admirar, cada vez é única e especial.</p>
+                <p><strong>Seus olhos</strong> guardam mistérios mais profundos que o deserto onde o aviador encontrou o
+                    principezinho.
+                    Neles vejo galáxias inteiras e todo o amor do mundo.</p>
+                <p><strong>Seu cabelo</strong> é como a juba dourada do Pequeno Príncipe - cada fio conta uma história,
+                    cada movimento é poesia em forma de dança.</p>
+                <p>"O essencial é invisível aos olhos" - mas sua beleza transcende o visível e toca minha alma.</p>
+            </div>
+        </section>
+
+        <div class="spotify-player">
+            <h3>Nossa Música</h3>
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/track/4d0DpU7Odiv0ztvX2GxJlk?utm_source=generator"
+                width="100%" height="152" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito com todo amor do mundo para minha estrela ⭐</p>
+        <p class="quote">"Foi o tempo que dedicaste à tua rosa que a fez tão importante"</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
