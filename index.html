@@ -4,120 +4,305 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Minha Rosa Especial</title>
+    <title>Eu te amo ❤️</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Quicksand:wght@300;400;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
+    <!-- Efeitos de fundo -->
     <div class="stars"></div>
     <div class="stars2"></div>
     <div class="stars3"></div>
+    <div class="aurora"></div>
+    
+    <!-- Estrelas cadentes -->
+    <div class="shooting-stars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
     <header>
-        <h1 class="main-title">Minha Rosa Especial</h1>
-        <p class="subtitle">"Tu te tornas eternamente responsável por aquilo que cativas"</p>
+        <h1 class="main-title">Eu te amo</h1>
+        <p class="subtitle">"Cada momento ao seu lado é um presente do universo"</p>
     </header>
 
     <main>
+        <!-- Seção de introdução com contador -->
         <section class="intro">
             <div class="intro-content">
-                <h2>Para a mulher mais linda do meu universo</h2>
-                <p>Como o Pequeno Príncipe tinha sua rosa única entre milhões, você é única para mim.
-                    Seu sorriso ilumina qualquer dia cinza, seu olhar carrega toda a magia das estrelas,
-                    e seu cabelo dança como os ventos suaves do asteroide B-612.</p>
-                <div class="rose-icon">🌹</div>
+                <h2>Meu Amor, Minha Vida</h2>
+                <p>Desde o primeiro dia em que nos conhecemos, meu mundo ganhou cores que eu nem sabia que existiam.
+                   Você transformou minha vida em uma aventura maravilhosa, onde cada dia ao seu lado é uma nova página 
+                   da mais linda história de amor.</p>
+                
+                <!-- Contador de relacionamento -->
+                <div class="relationship-counter">
+                    <h3>Estamos juntos há:</h3>
+                    <div class="counter-display">
+                        <div class="time-unit">
+                            <span id="years" class="number">0</span>
+                            <span class="label">Anos</span>
+                        </div>
+                        <div class="time-unit">
+                            <span id="months" class="number">0</span>
+                            <span class="label">Meses</span>
+                        </div>
+                        <div class="time-unit">
+                            <span id="days" class="number">0</span>
+                            <span class="label">Dias</span>
+                        </div>
+                        <div class="time-unit">
+                            <span id="hours" class="number">0</span>
+                            <span class="label">Horas</span>
+                        </div>
+                        <div class="time-unit">
+                            <span id="minutes" class="number">0</span>
+                            <span class="label">Minutos</span>
+                        </div>
+                    </div>
+                    <p class="counter-message">E cada segundo valeu a pena! ❤️</p>
+                </div>
             </div>
         </section>
 
+        <!-- Galeria de fotos -->
         <section class="gallery-section">
-            <h2 class="gallery-title">A Mais Bela Rosa do Universo</h2>
-            <div class="carousel-container">
-                <div class="carousel" id="carousel">
-                    <div class="carousel-item active">
-                        <img src="foto1.jpeg"
-                            alt="Foto 1 - Seu sorriso iluminando meu mundo">
-                        <div class="carousel-caption">
-                            <p>Seu sorriso ilumina meu mundo como mil sóis ☀️</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="foto2.jpeg"
-                            alt="Foto 2 - Seus olhos como estrelas">
-                        <div class="carousel-caption">
-                            <p>Nos seus olhos encontro todas as estrelas do universo ⭐</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="foto3.jpeg"
-                            alt="Foto 3 - Seu cabelo dançando">
-                        <div class="carousel-caption">
-                            <p>Seu cabelo dança como os ventos do asteroide B-612 🌟</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="foto5.jpeg"
-                            alt="Foto 4 - Você é única">
-                        <div class="carousel-caption">
-                            <p>Você é a rosa única entre milhões no universo 🌹</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="foto4.jpeg"
-                            alt="Foto 5 - Espero que voce tenha lembranças boas dele">
-                        <div class="carousel-caption">
-                            <p>Olha o seu gatinho foda</p>
-                        </div>
-                    </div>
+            <h2 class="gallery-title">Nossos Momentos Especiais</h2>
+            <div class="carousel-wrapper">
+                <!-- Corações flutuantes -->
+                <div class="floating-hearts">
+                    <span>❤️</span>
+                    <span>💕</span>
+                    <span>❤️</span>
+                    <span>💕</span>
                 </div>
+                
+                <div class="carousel-container">
+                    <div class="carousel" id="carousel">
+                        <div class="carousel-item active">
+                            <img src="imagem.jpg"
+                                alt="Nossa primeira foto juntos">
+                            <div class="carousel-caption">
+                                <p>Você é tudo que sempre sonhei e mais ❤️</p>
+                            </div>
+                            <span class="slide-number">1 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem2.jpg"
+                                alt="Nosso primeiro encontro">
+                            <div class="carousel-caption">
+                                <p>Em seus olhos encontrei meu universo inteiro 💕</p>
+                            </div>
+                            <span class="slide-number">2 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem3.jpg"
+                                alt="Momentos felizes juntos">
+                            <div class="carousel-caption">
+                                <p>Meu coração bate mais forte só de pensar em você 💓</p>
+                            </div>
+                            <span class="slide-number">3 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem4.jpg"
+                                alt="Nossa viagem especial">
+                            <div class="carousel-caption">
+                                <p>Você é minha pessoa favorita no mundo todo 🌎</p>
+                            </div>
+                            <span class="slide-number">4 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem5.jpg"
+                                alt="Momentos do dia a dia">
+                            <div class="carousel-caption">
+                                <p>Te amo mais do que todas as estrelas do céu ✨</p>
+                            </div>
+                            <span class="slide-number">5 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem6.jpg"
+                                alt="Comemorando juntos">
+                            <div class="carousel-caption">
+                                <p>Cada dia ao seu lado é um presente do destino 🎁</p>
+                            </div>
+                            <span class="slide-number">6 / 8</span>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagem8.jpg"
+                                alt="Nosso amor">
+                            <div class="carousel-caption">
+                                <p>Você faz meu mundo ser mais colorido e feliz 🌈</p>
+                            </div>
+                            <span class="slide-number">7 / 8</span>
+                        </div>
+                    </div>
 
-                <!-- Navegação -->
-                <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
-                <button class="carousel-next" onclick="changeSlide(1)">❯</button>
+                    <!-- Navegação -->
+                    <button class="carousel-prev" onclick="changeSlide(-1)">❮</button>
+                    <button class="carousel-next" onclick="changeSlide(1)">❯</button>
 
-                <!-- Indicadores -->
-                <div class="carousel-indicators">
-                    <span class="indicator active" onclick="goToSlide(0)"></span>
-                    <span class="indicator" onclick="goToSlide(1)"></span>
-                    <span class="indicator" onclick="goToSlide(2)"></span>
-                    <span class="indicator" onclick="goToSlide(3)"></span>
+                    <!-- Indicadores -->
+                    <div class="carousel-indicators">
+                        <span class="indicator active" onclick="goToSlide(0)"></span>
+                        <span class="indicator" onclick="goToSlide(1)"></span>
+                        <span class="indicator" onclick="goToSlide(2)"></span>
+                        <span class="indicator" onclick="goToSlide(3)"></span>
+                        <span class="indicator" onclick="goToSlide(4)"></span>
+                        <span class="indicator" onclick="goToSlide(5)"></span>
+                        <span class="indicator" onclick="goToSlide(6)"></span>
+                        <span class="indicator" onclick="goToSlide(7)"></span>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <!-- Poema de amor dividido em seções -->
+        <section class="message-section">
+            <div class="message-box poem-section">
+                <h3>💕 O Primeiro Encontro 💕</h3>
+                <p class="poem-text">
+                    Quando vi teus olhos pela primeira vez,<br>
+                    me perdi —<br>
+                    mas o farol do teu sorriso<br>
+                    me guiou até tua boca,<br>
+                    e tua boca… até meu destino.
+                </p>
             </div>
         </section>
 
         <section class="message-section">
-            <div class="message-box">
-                <h3>💫 Sobre Sua Beleza Única 💫</h3>
-                <p><strong>Seu sorriso</strong> é como o pôr do sol que o Pequeno Príncipe via 44 vezes em seu planeta -
-                    nunca me canso de admirar, cada vez é única e especial.</p>
-                <p><strong>Seus olhos</strong> guardam mistérios mais profundos que o deserto onde o aviador encontrou o
-                    principezinho.
-                    Neles vejo galáxias inteiras e todo o amor do mundo.</p>
-                <p><strong>Seu cabelo</strong> é como a juba dourada do Pequeno Príncipe - cada fio conta uma história,
-                    cada movimento é poesia em forma de dança.</p>
-                <p>"O essencial é invisível aos olhos" - mas sua beleza transcende o visível e toca minha alma.</p>
+            <div class="message-box poem-section">
+                <h3>🌟 O Primeiro Beijo 🌟</h3>
+                <p class="poem-text">
+                    Teu beijo, meio tímido, meio urgente,<br>
+                    fez meu coração se lançar do peito<br>
+                    sem pedir permissão.<br>
+                    Ali, entre risos, olhares e silêncios,<br>
+                    eu encontrei a poesia<br>
+                    que tantas vezes tentei escrever<br>
+                    e só agora entendi:<br>
+                    ela tinha teu nome.
+                </p>
             </div>
         </section>
 
+        <section class="message-section">
+            <div class="message-box poem-section">
+                <h3>❤️ Nosso Tempo Juntos ❤️</h3>
+                <p class="poem-text">
+                    Um mês.<br>
+                    Trinta dias.<br>
+                    E já parece que a vida toda me trouxe até aqui,<br>
+                    pra esse exato lugar:<br>
+                    o espaço entre teus braços<br>
+                    e o tempo em que teu sorriso acontece.
+                </p>
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-box poem-section">
+                <h3>💫 Você em Minha Vida 💫</h3>
+                <p class="poem-text">
+                    Você, tão perto,<br>
+                    tão minha —<br>
+                    de um jeito que me desarma<br>
+                    e me reconstrói.<br>
+                    Queria poder congelar cada instante,<br>
+                    repetir cada toque,<br>
+                    rever cada detalhe do dia em que te conheci.
+                </p>
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-box poem-section">
+                <h3>🌹 Nosso Futuro 🌹</h3>
+                <p class="poem-text">
+                    Mas ao mesmo tempo,<br>
+                    quero mais do amanhã,<br>
+                    quero mais de nós,<br>
+                    quero mais do que ainda nem sei o nome,<br>
+                    mas já sei que é contigo.
+                </p>
+            </div>
+        </section>
+
+        <section class="message-section">
+            <div class="message-box poem-section">
+                <h3>💕 Para Sempre 💕</h3>
+                <p class="poem-text">
+                    Se for sonho, que não acorde.<br>
+                    Se for destino, que continue.<br>
+                    Se for amor —<br>
+                    e eu sei que é —<br>
+                    que seja o primeiro mês de muitos.
+                </p>
+            </div>
+        </section>
+
+        <!-- Player do Spotify -->
         <div class="spotify-player">
-            <h3>Nossa Música</h3>
+            <h3>Nossa Música 🎵</h3>
             <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/track/4d0DpU7Odiv0ztvX2GxJlk?utm_source=generator"
                 width="100%" height="152" frameBorder="0" allowfullscreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
             </iframe>
+            <p class="music-message">A música que sempre me faz lembrar de você...</p>
         </div>
+
+
     </main>
 
     <footer>
-        <p>Feito com todo amor do mundo para minha estrela ⭐</p>
-        <p class="quote">"Foi o tempo que dedicaste à tua rosa que a fez tão importante"</p>
+        <p class="quote">"Em seus olhos encontrei meu lar, em seu coração encontrei meu destino"</p>
+        <p class="footer-date">Te amo hoje e sempre!</p>
     </footer>
 
+
     <script src="script.js"></script>
+    <script>
+        // Configuração do contador de relacionamento
+        // IMPORTANTE: Altere esta data para a data que vocês começaram a namorar
+        const startDate = new Date('2025-06-25'); // Formato: 'YYYY-MM-DD'
+        
+        function updateCounter() {
+            const now = new Date();
+            const diff = now - startDate;
+            
+            const years = Math.floor(diff / (365.25 * 24 * 60 * 60 * 1000));
+            const months = Math.floor((diff % (365.25 * 24 * 60 * 60 * 1000)) / (30.44 * 24 * 60 * 60 * 1000));
+            const days = Math.floor((diff % (30.44 * 24 * 60 * 60 * 1000)) / (24 * 60 * 60 * 1000));
+            const hours = Math.floor((diff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+            const minutes = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
+            
+            document.getElementById('years').textContent = years;
+            document.getElementById('months').textContent = months;
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+        }
+        
+        // Atualiza o contador a cada minuto
+        updateCounter();
+        setInterval(updateCounter, 60000);
+        
+        // Animação especial para o contador
+        const timeUnits = document.querySelectorAll('.time-unit');
+        timeUnits.forEach((unit, index) => {
+            unit.style.animationDelay = `${index * 0.1}s`;
+            unit.classList.add('fade-in');
+        });
+    </script>
 </body>
 
 </html>
